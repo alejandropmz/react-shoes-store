@@ -1,0 +1,33 @@
+#footer {
+  border: solid rgb(197, 191, 191) 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 10px;
+}
+
+/* Suscribete */
+
+#suscribete {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+input #email {
+  border-radius: 5px;
+  border: gold 2px solid;
+}
+
+.contacto-pago {
+  margin: 5px 0;
+}
+
+.contacto-pago i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.contacto-pago * {
+  margin: 2px 0;
+}

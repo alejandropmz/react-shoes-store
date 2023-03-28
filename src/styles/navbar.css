@@ -1,0 +1,52 @@
+#navbar {
+  /* padding: 10px 20px; */
+  text-align: center;
+}
+
+#navbar div {
+  padding: 10px;
+}
+
+.right div {
+  cursor: pointer;
+}
+
+#navbar i {
+  font-size: 22px;
+}
+
+.nav-top {
+  background-color: antiquewhite;
+}
+
+.nav-top p {
+  margin: 0 5px;
+}
+
+.nav-center {
+  border-bottom: 1px solid rgb(197, 191, 191);
+}
+
+.nav-bottom * {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.d-flex #input-nav {
+  height: 30px;
+}
+
+@media screen and (max-width: 520px) {
+  .d-flex #input-nav {
+    display: none;
+  }
+
+  .left {
+    justify-content: center;
+  }
+
+  .right {
+    justify-content: center;
+  }
+}

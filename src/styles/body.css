@@ -1,0 +1,43 @@
+.btn-warning {
+  background-color: #c1abe0;
+  border-color: #c1abe0;
+  color: white;
+}
+
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:focus-within,
+.btn-warning:focus-visible {
+  background-color: #faebd7;
+  border-color: #faebd7;
+}
+
+.btn-info {
+  background-color: #FAEBD7;
+  border-color: #FAEBD7;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:focus-within,
+.btn-info:focus-visible {
+  background-color: #c1abe0;
+  border-color: #c1abe0;
+  color: white;
+}
+
+#mostrar-mas {
+  font-size: 50px;
+  color: rgb(240, 206, 119);  
+}
+
+#mostrar-mas:hover {
+  color: gray;
+  transition: all ease-in .2s;
+}
+
+#mostrar-mas:active {
+  color: black;
+}
