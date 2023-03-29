@@ -19,7 +19,10 @@ export const Navbar = () => {
         <div className="row d-flex justify-content-between nav-bottom">
           <div className="col-md-5 col-sm-12 left d-flex align-items-center">
             {navItems.map((item, index) => (
-              <Link to={item === "Inicio" ? "/" : "/" + item} key={index}>
+              <Link
+                to={item === "Inicio" ? "/" : "/" + item.toLocaleLowerCase()}
+                key={index}
+              >
                 {item}
               </Link>
             ))}
@@ -50,44 +53,3 @@ export const Navbar = () => {
     </div>
   );
 };
-
-{
-  /* 
-<nav
-  id="navbar"
-  className="d-block navbar navbar-expand-lg navbar-light bg-light"
->
-  <div className="container-fluid">
-    <button
-      className="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div
-      className="collapse navbar-collapse justify-content-center"
-      id="navbarNav"
-    >
-      <ul className="navbar-nav">
-        {navItems.map((item, index) => (
-          <li key={index} className="nav-item">
-            <Link
-              to={item === "Inicio" ? "/" : "/" + item}
-              className="nav-link active"
-              aria-current="page"
-            >
-              {item}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </div>
-  <div className="d-flex justify-content-center"><small>Descuentos aquí</small></div>
-</nav> */
-}
