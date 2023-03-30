@@ -21,7 +21,8 @@
 
 #carouselExampleCaptions {
   margin: auto;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 520px) {
   #carouselExampleCaptions {
@@ -40,10 +41,8 @@
 
 /* vecino carousel */
 #vecino-carousel {
-  height: 660px;
+  height: 490px;
   padding: 10px;
-  background-color: black;
-  color: white;
 }
 
 /* Top body */
@@ -90,9 +89,5 @@
 
 #mirar-mas {
   margin: 20px;
+  text-decoration: none;
 }
-/* #card-button {
-  background-color: aqua;
-  border: aqua;
-  color: black;
-} */

@@ -30,7 +30,8 @@
 
 #mostrar-mas {
   font-size: 50px;
-  color: rgb(240, 206, 119);  
+  color: rgb(240, 206, 119); 
+  cursor: pointer; 
 }
 
 #mostrar-mas:hover {

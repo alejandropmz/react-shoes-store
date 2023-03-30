@@ -1,0 +1,38 @@
+#mini-card-container * {
+  margin: 0;
+}
+
+#mini-card-container {
+  border: solid 1px gray;
+  height: 400px;
+  width: 200px;
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#mini-card-container img {
+  width: 100%;
+}
+
+#mini-card-icon {
+  font-size: 25px;
+}
+
+#colecciones-contendor {
+  padding: 10px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#colecciones-contendor #card {
+  margin: 10px auto;
+}
+
+#colecciones-title {
+  padding: 20px;
+  text-align: center;
+}

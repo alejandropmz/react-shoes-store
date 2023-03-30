@@ -2,6 +2,7 @@
 @import url('styles/footer.css');
 @import url('styles/inicio.css');
 @import url('styles/body.css');
+@import url('styles/minicard.css');
 
 * {
   padding: 0;
