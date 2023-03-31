@@ -111,6 +111,11 @@
   transition: all ease-in 300ms;
 }
 
+.calzados,
+.pijamas {
+  cursor: pointer;
+}
+
 .calzados h5,
 .pijamas h5 {
   margin-top: 10px;
